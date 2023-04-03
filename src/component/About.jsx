@@ -23,7 +23,7 @@ const About = () => {
               </div>
             </Col>
             <Col className='col-md-6 col-12'>
-              <div className="about-info">
+              <div className="about-info p-4">
                 <h3>explore the diffrences</h3>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
