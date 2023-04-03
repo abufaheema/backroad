@@ -2,14 +2,20 @@ import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import React from "react";
 import './sass/main.scss'
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import Header from "./component/Header";
+import Hero from "./component/Hero";
+import About from "./component/About";
 
-import { Box } from "@mui/material";
+
 
 const App = () => {
   return (
-    <Box>
-      <h1 className="text-info">hello</h1>
-    </Box>
+    <div>
+      <Header />
+      <Hero />
+      <About/>
+    </div>
   );
 };
 
